@@ -4,88 +4,187 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sprint 02: Onderzoek — Devlog</title>
+  <meta name="description" content="Sprint 2: Deepfake Cinema. Van idee naar een werkend prototype.">
+  <title>Sprint 02: Deepfake Cinema — Devlog</title>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="css/style.css">
   <script src="js/main.js" defer></script>
 </head>
+
 <body id="top">
   <div class="grain"></div>
+
   <header class="site-header">
-    <a class="logo" href="index.html"><span class="logo-mark">D</span><span>DEV<span class="accent">LOG</span><small>PROCESS / JOURNAL</small></span></a>
+    <a class="logo" href="index.html">
+      <span class="logo-mark">D</span>
+      <span>DEV<span class="accent">LOG</span><small>PROCESS / JOURNAL</small></span>
+    </a>
+
     <button class="menu-toggle" aria-label="Menu openen" aria-expanded="false">☰</button>
+
     <nav class="nav">
       <a href="index.html">Overzicht</a>
       <a class="active" href="index.html#updates">Sprint updates</a>
       <a href="index.html#about">Over dit project</a>
     </nav>
+
     <span class="header-tag"><i></i> IN ONTWIKKELING</span>
   </header>
 
   <main>
     <section class="detail-hero">
       <a class="back-link" href="index.html#updates">← TERUG NAAR OVERZICHT</a>
-      <p class="eyebrow"><span class="eyebrow-line"></span> RESEARCH / VERKENNEN</p>
-      <h1>Sprint 02: <span class="gradient-text">Onderzoek.</span></h1>
-      <p class="detail-subtitle">Inspiratie, inzichten en keuzes. Op deze pagina houd ik bij wat ik heb gedaan, wat ik heb geleerd en wat mijn volgende stap is.</p>
+
+      <p class="eyebrow">
+        <span class="eyebrow-line"></span>
+        PROTOTYPE / DEEPFAKE CINEMA
+      </p>
+
+      <h1>Sprint 02: <span class="gradient-text">Deepfake Cinema.</span></h1>
+
+      <p class="detail-subtitle">
+        Van idee naar een werkend prototype: een ervaring die laat zien hoe technologie ongemerkt voor een ander doel kan worden gebruikt.
+      </p>
+
       <div class="meta-row">
         <span class="meta">SPRINT <strong>02</strong></span>
-        <span class="meta">STATUS <strong>DOCUMENTATIE</strong></span>
+        <span class="meta">STATUS <strong>GEPRESENTEERD</strong></span>
         <span class="meta">TYPE <strong>SPRINTUPDATE</strong></span>
       </div>
     </section>
 
     <section class="detail-layout">
       <article class="detail-content">
+
+        <!-- 01 / WAT WE DEDEN -->
         <section id="activiteiten">
-          <p class="detail-label">01 / OVER DEZE SPRINT</p>
-          <h2>Wat heb ik gedaan?</h2>
-          <p>Deze sprint stond in het teken van onderzoek. Ik heb informatie en voorbeelden verzameld om beter onderbouwde keuzes voor mijn project te kunnen maken.</p>
-          <div class="placeholder"><strong>JOUW EIGEN UPDATE:</strong><br>Vervang deze tekst door wat jij deze sprint echt hebt gedaan. Noem concrete opdrachten, activiteiten en resultaten.</div>
+          <p class="detail-label">01 / WAT WE DEDEN</p>
+          <h2>Van idee naar prototype</h2>
+
+          <p>
+            In sprint 2 hebben we van ons idee een werkend prototype gemaakt. Ons project gaat over <em>function creep</em>: technologie die voor het ene doel wordt gemaakt, maar ongemerkt voor iets heel anders wordt gebruikt. Denk aan een camera die je accepteert omdat hij een duidelijk doel lijkt te hebben, terwijl je beelden daarna ook voor iets anders kunnen dienen.
+          </p>
+
+          <p>
+            In ons geval is dat een deepfake cinema. Een bezoeker kijkt naar een educatieve film, terwijl een camera op de achtergrond diens gezicht vastlegt. Aan het einde van de film verschijnt het eigen gezicht van de bezoeker ineens op een personage in de video. De camera leek dus onderdeel van de filmervaring, maar werd gebruikt voor iets wat de bezoeker niet had verwacht.
+          </p>
+
+          <p>
+            Het prototype bestaat uit een monitor en een camera. De deepfake wordt live gegenereerd, terwijl de bezoeker nog naar de film kijkt. We hebben het prototype gepresenteerd op Society 5.0.
+          </p>
+
+          <figure class="devlog-figure">
+            <img class="devlog-image" src="images/sprint2-opstelling.jpg" alt="Onze opstelling op Society 5.0 met laptop en monitor achter een kartonnen scheidingswand">
+            <figcaption>
+              De opstelling op Society 5.0: laptop en monitor, afgeschermd met karton.
+            </figcaption>
+          </figure>
         </section>
 
+        <!-- 02 / MIJN BIJDRAGE -->
         <section id="werkzaamheden">
-          <p class="detail-label">02 / ACTIVITEITEN</p>
-          <h2>Waar heb ik aan gewerkt?</h2>
-          <ul>
-            <li>Relevante voorbeelden en inspiratie bekijken</li>
-            <li>Informatie verzamelen over mogelijke oplossingen</li>
-            <li>De voor- en nadelen van ideeën vergelijken</li>
-          </ul>
-          <div class="placeholder"><strong>VOEG BEWIJS TOE:</strong><br>Beschrijf hier je eigen werkzaamheden. Je kunt ook screenshots, foto's, ontwerpen of codefragmenten toevoegen.</div>
+          <p class="detail-label">02 / MIJN BIJDRAGE</p>
+          <h2>Meewerken aan de video</h2>
+
+          <p>
+            Ik heb meegewerkt aan de video die bezoekers te zien krijgen. Het script heb ik gelezen en ik heb er zelf in geacteerd. Daarnaast heb ik meegeholpen met het schrijven van het script.
+          </p>
+
+          <p>
+            De film is bewust een educatieve video over technologie en privacy. Dat past bij ons concept: de bezoeker verwacht uitleg over iets onschuldigs en let daardoor niet op de camera. Juist doordat de inhoud over privacy gaat, wordt het moment aan het einde extra ironisch. Bij het schrijven hebben we daarom gelet op een toon die geloofwaardig en informatief overkomt, zodat de bezoeker niet doorheeft dat er iets staat te gebeuren.
+          </p>
+
+          <figure class="devlog-figure">
+            <img class="devlog-image" src="images/sprint2-opnames.jpg" alt="Opnames van de video in een lokaal met een telefoon op een standaard">
+            <figcaption>
+              Opnames van de video in het lokaal.
+            </figcaption>
+          </figure>
+
+          <figure class="devlog-figure">
+            <img class="devlog-image" src="images/sprint2-voorbereiding.jpg" alt="Teamleden met laptops tijdens de voorbereiding van het script en de opnames">
+            <figcaption>
+              Voorbereiding: script en opnames nalopen.
+            </figcaption>
+          </figure>
+
+          <p>
+            Voordat we zelf gingen filmen, heb ik eerst onderzocht of we de video met AI konden maken. Dat leek een logische keuze voor een project over deepfakes. Het bleek uiteindelijk niet goed uit te komen: het kostte te veel tijd en geld voor het resultaat dat we nodig hadden. Daarom hebben we ervoor gekozen om de video zelf op te nemen. Dat gaf ons meer controle over het script en het personage waarop het gezicht van de bezoeker terecht moest komen.
+          </p>
         </section>
 
+        <!-- 03 / WAAR WE TEGENAAN LIEPEN -->
         <section id="resultaat">
-          <p class="detail-label">03 / RESULTAAT</p>
-          <h2>Wat is eruit gekomen?</h2>
-          <p>Beschrijf hier het resultaat van deze sprint. Wat heb je gemaakt, ontdekt of afgerond? Voeg waar mogelijk een afbeelding of link toe.</p>
+          <p class="detail-label">03 / WAAR WE TEGENAAN LIEPEN</p>
+          <h2>Een probleem vlak voor de presentatie</h2>
+
+          <p>
+            Net voor de presentatie werkte onze monitor niet goed. De instellingen klopten niet, waardoor het beeld niet liep zoals we hadden getest. Daardoor moesten we op het laatste moment de opstelling aanpassen. Dit zorgde voor flinke stress, omdat we vlak voor het presenteren nog een oplossing moesten vinden.
+          </p>
+
+          <p>
+            Uiteindelijk is het gelukt om alles op tijd werkend te krijgen. Voor een volgende keer weten we dat we de opstelling eerder op de echte locatie en met de echte apparatuur moeten testen, in plaats van alleen in het lokaal.
+          </p>
         </section>
 
+        <!-- 04 / DE PRESENTATIE -->
         <section id="reflectie">
-          <p class="detail-label">04 / REFLECTIE</p>
-          <h2>Wat heb ik geleerd?</h2>
-          <p>Door het onderzoek begrijp ik beter welke mogelijkheden er zijn. Ik kan mijn keuzes nu beter uitleggen. Een aandachtspunt is om bronnen en bevindingen duidelijk bij te houden.</p>
-          <div class="placeholder"><strong>REFLECTIEVRAGEN:</strong><br>Welke informatie was nieuw voor mij? Welke keuze kan ik met mijn onderzoek onderbouwen?<br><br>Schrijf hier jouw persoonlijke antwoord.</div>
+          <p class="detail-label">04 / DE PRESENTATIE</p>
+          <h2>De reactie van bezoekers</h2>
+
+          <p>
+            Tijdens Society 5.0 kwamen veel bezoekers langs. Mensen reageerden geschokt toen ze hun eigen gezicht op het personage zagen verschijnen. Sommigen moesten ook lachen, maar de schrik was bij bijna iedereen zichtbaar. Dat was precies het effect waar we naar op zoek waren.
+          </p>
+
+          <figure class="devlog-figure">
+            <img class="devlog-image" src="images/sprint2-bezoeker.jpg" alt="Een bezoeker met koptelefoon kijkt naar de film op de monitor">
+            <figcaption>
+              Een bezoeker kijkt naar de film, zonder te weten wat er gaat gebeuren.
+            </figcaption>
+          </figure>
+
+          <figure class="devlog-figure">
+            <img class="devlog-image" src="images/sprint2-camera.jpg" alt="Het livebeeld van de camera op een laptop met een bezoeker op de achtergrond">
+            <figcaption>
+              Het livebeeld van de camera op de laptop.
+            </figcaption>
+          </figure>
+
+          <p>
+            De reactie maakte duidelijk hoe onverwacht technologie kan worden ingezet en hoe makkelijk gegevens voor iets anders kunnen worden gebruikt dan je dacht. Ik ben trots op het resultaat: na de stress vlak voor de presentatie werkte het prototype en kreeg het de reactie waar we op hoopten.
+          </p>
         </section>
 
-        <a class="next-sprint" href="sprint-03.html">VOLGENDE SPRINT <span>↗</span></a>
+        <a class="next-sprint" href="sprint-03.html">
+          VOLGENDE SPRINT <span>↗</span>
+        </a>
+
       </article>
 
       <aside class="detail-aside">
-        <h3>IN DEZE SPRINT</h3>
-        <a href="#activiteiten">01 — Wat heb ik gedaan?</a>
-        <a href="#werkzaamheden">02 — Activiteiten</a>
-        <a href="#resultaat">03 — Resultaat</a>
-        <a href="#reflectie">04 — Reflectie</a>
-        <div class="detail-label" style="margin-top:24px">DEVLOG / SPRINT 02</div>
+        <h3>IN DEZE UPDATE</h3>
+        <a href="#activiteiten">01 — Wat we deden</a>
+        <a href="#werkzaamheden">02 — Mijn bijdrage</a>
+        <a href="#resultaat">03 — Waar we tegenaan liepen</a>
+        <a href="#reflectie">04 — De presentatie</a>
+
+        <div class="detail-label" style="margin-top:24px">
+          DEVLOG / SPRINT 02
+        </div>
       </aside>
     </section>
   </main>
 
   <footer class="footer">
-    <a class="logo footer-logo" href="index.html"><span class="logo-mark">D</span><span>DEV<span class="accent">LOG</span><small>PROCESS / JOURNAL</small></span></a>
+    <a class="logo footer-logo" href="index.html">
+      <span class="logo-mark">D</span>
+      <span>DEV<span class="accent">LOG</span><small>PROCESS / JOURNAL</small></span>
+    </a>
+
     <span>GEMAAKT ALS ONDERDEEL VAN MIJN PROJECT</span>
     <a href="#top">TERUG NAAR BOVEN ↑</a>
   </footer>
